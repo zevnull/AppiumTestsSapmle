@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium test suite">
+
+    <test verbose="1" name="Tests"
+          annotations="JDK">
+        <classes>
+            <class name="com.test.AndroidTest" />
+        </classes>
+    </test>
+
+</suite>
